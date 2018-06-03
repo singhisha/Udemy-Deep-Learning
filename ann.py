@@ -53,6 +53,7 @@ from keras.layers import Dropout
 classifier = Sequential()
 
 # Adding the input layer and the first hidden layer
+#Dense function is used to add a fully connected layer in ANN
 #We won't need to specify input_dim in the next layers as they will already know what to expect
 classifier.add(Dense(units = 6, kernel_initializer = 'uniform', activation = 'relu', input_dim = 11))
 classifier.add(Dropout(p = 0.1))
