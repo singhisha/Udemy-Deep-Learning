@@ -10,3 +10,9 @@ File: rnn.py; Dataset: Google_Stock_Price_Train.csv, Google_Stock_Price_Test.csv
 
 Self Organising Maps (SOM) to do fraud detection among the customers applying for a credit card:
 File: som.py, Dataset: Credit_Card_Applications.csv, Output: frauds.png
+
+Restricted Boltzmann Machine (RBM) for making a recommender system to predict movie ratings:
+File: rbm.py ; Dataset: MovieLens dataset
+
+Auto Encoder for making a recommender system to predict movie ratings:
+File: ae.py ; Dataset: MovieLens dataset
